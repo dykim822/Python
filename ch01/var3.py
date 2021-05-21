@@ -17,3 +17,6 @@ print(c)
 # str은 숫자를 문자열로 변경하는 명령어
 c2 = a1 + str(a3)
 print(c2)
+c3 = 4j
+c4 = 5j
+print(c3 * c4)
