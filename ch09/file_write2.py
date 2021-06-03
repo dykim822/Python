@@ -1,0 +1,12 @@
+# 'w'로 파일을 open하면 기존 데이터 삭제
+file = open('test.txt', 'w', encoding='utf-8')
+file.write('2021년\n')
+file.write('6월 3일\n')
+file.write('오후에 비 예보 있습니다\n')
+file.close()
+# 'a'로 파일을 open하면 기존 데이터 삭제(append)
+file = open('test.txt', 'a', encoding='utf-8')
+file.write('2021년\n')
+file.write('6월 3일\n')
+file.write('오후에 비 예보 있습니다\n')
+file.close()
