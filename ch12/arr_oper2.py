@@ -1,0 +1,15 @@
+import numpy as np
+ar = np.array([1,2,3])
+br = np.array([4,5,6])
+print(ar*2)
+# 행렬 연산
+print(ar + br)
+print(ar - br)
+print(ar * br)
+print(ar / br)
+print(np.equal(ar, br))
+print(np.not_equal(ar, br))
+print(np.greater(ar, br))
+print(np.greater_equal(ar, br))
+print(np.less(ar, br))
+print(np.less_equal(ar, br))
